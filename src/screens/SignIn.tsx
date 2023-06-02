@@ -26,7 +26,7 @@ export function SignIn() {
           </Text>
         </Center>
 
-        <Center mt={24}>
+        <Center>
           <Heading color="gray.100" fontSize="xl" mb={6} fontFamily="body">
             Acesse sua conta
           </Heading>
