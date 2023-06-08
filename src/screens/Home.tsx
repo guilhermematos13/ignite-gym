@@ -29,7 +29,9 @@ export function Home() {
           renderItem={({ item }) => (
             <Group
               name={item}
-              isActive={groupSelected === item}
+              isActive={
+                groupSelected.toLocaleLowerCase() === item.toLocaleLowerCase()
+              }
               onPress={() => setGroupSelected(item)}
             />
           )}
