@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Heading, VStack, SectionList, Text } from 'native-base';
-import { ScreenHeader } from './ScreenHeader';
+import { ScreenHeader } from '@components/ScreenHeader';
 import { HistoryCard } from '@components/HistoryCard';
 
 export function History() {
@@ -38,6 +38,7 @@ export function History() {
             Vamos fazer exercícios hoje?
           </Text>
         )}
+        showsVerticalScrollIndicator={false}
       />
     </VStack>
   );

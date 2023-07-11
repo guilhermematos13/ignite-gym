@@ -1,3 +1,4 @@
+import { HistoryCard } from '@components/HistoryCard';
 import { Center, Heading } from 'native-base';
 
 type Props = {
