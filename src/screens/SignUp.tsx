@@ -91,12 +91,8 @@ export function SignUp() {
             )}
             name='email'
           />
-
           <Controller
             control={control}
-            rules={{
-              required: 'Informe a senha'
-            }}
             render={({ field: { onChange, value } }) => (
               <Input
                 secureTextEntry
@@ -109,12 +105,8 @@ export function SignUp() {
             )}
             name='password'
           />
-
           <Controller
             control={control}
-            rules={{
-              required: 'Confirme a senha'
-            }}
             render={({ field: { onChange, value } }) => (
               <Input
                 secureTextEntry
