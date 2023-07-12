@@ -50,7 +50,8 @@ export function Home() {
           showsHorizontalScrollIndicator={false}
           _contentContainerStyle={{ px: 8 }}
           my={10}
-          maxHeight={10}
+          maxH={10}
+          minH={10}
         />
       </HStack>
       <VStack flex={1} px={8}>
